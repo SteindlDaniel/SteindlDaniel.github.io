@@ -9,9 +9,9 @@ description: "This is a website for the austrian company adventures24.at"
 
 # Team names, titles and social links
 people:
-- name: David Ablinger
+- name: Martin Reiter
   pic: 1
-  position: Geschäftsführer
+  position: Geschäftsführer / Gesellschafter
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Stefan Schuster
+- name: David Ablinger
   pic: 2
-  position: Geschäftsführer
+  position: Geschäftsführer / Gesellschafter
   social:
     - title: twitter
       url: #
@@ -31,9 +31,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Martin Reiter
+- name: Stefan Schuster
   pic: 3
-  position: Geschäftsführer
+  position: Geschäftsführer / Gesellschafter
   social:
     - title: twitter
       url: #
