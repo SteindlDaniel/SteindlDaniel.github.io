@@ -269,7 +269,6 @@ fieldset[disabled] .btn-xl.active {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
 }
 
 header {
