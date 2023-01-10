@@ -278,6 +278,14 @@ header {
     -o-background-size: cover;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
