@@ -277,8 +277,8 @@ header {
 
 header .intro-text {
     position:absolute;
-    top: 0;
-    left: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
     z-index:1;
 }
 
