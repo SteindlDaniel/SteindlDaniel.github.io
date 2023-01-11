@@ -352,8 +352,7 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin-top: 20px;
-    margin-left:50px;
+    margin: 15px 0;
     text-transform: none;
 }
 
