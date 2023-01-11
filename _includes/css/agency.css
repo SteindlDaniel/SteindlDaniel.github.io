@@ -270,13 +270,13 @@ header {
     color: #fff;
 }
 
-.container myVideo{
+#myVideo{
     position:relative;
     z-index:0;
 }
 
 header .intro-text {
-    position:absolut;
+    position:absolute;
     padding-top: 100px;
     padding-bottom: 50px;
     z-index:1;
