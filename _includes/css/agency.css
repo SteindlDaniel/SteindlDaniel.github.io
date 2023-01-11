@@ -265,6 +265,12 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 header {
     text-align: center;
     color: #fff;
