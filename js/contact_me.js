@@ -20,6 +20,9 @@ $(function() {
             $.ajax({
                 url: "https://formspree.io/f/mwkjpvzl",
                 type: "POST",
+                beforeSend: function(request) {
+                    reqeust.setRequestHeader("Acces-Control-Allow-Origin", "*");
+                },
                 data: {
                     name: name,
                     phone: phone,
