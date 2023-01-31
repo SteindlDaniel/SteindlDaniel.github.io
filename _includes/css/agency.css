@@ -275,6 +275,7 @@ header {
     position:relative;
     top: 0;
     left:0;
+    transform: translateX(-50%);
     z-index:0;
 }
 
@@ -297,7 +298,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
