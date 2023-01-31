@@ -31,7 +31,6 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
-                    alert("success);
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -45,7 +44,6 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    alert("error");
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
