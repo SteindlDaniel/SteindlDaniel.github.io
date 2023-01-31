@@ -53,7 +53,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 }
-            }).fail (function() {
+            }).fail (function(jqXHR, textStatus, errorThrown) {
                 // Fail message
                 $('#success').html("<div class='alert alert-danger'>");
                 $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
