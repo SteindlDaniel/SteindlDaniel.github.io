@@ -31,6 +31,7 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
+                    alert("success);
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -44,6 +45,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
+                    alert("error");
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -55,19 +57,21 @@ $(function() {
                 },
             }).fail (fuction(jqXHR, textStatus, thrownError) {
                 if (jqXHR.status = 200) {
-                // Success message
-                        $('#success').html("<div class='alert alert-success'>");
-                        $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                            .append("</button>");
-                        $('#success > .alert-success')
-                            .append("<strong>Deine Nachricht wurde gesendet. </strong>");
-                        $('#success > .alert-success')
-                            .append('</div>');
+                    alert("fail-200");
+                    // Success message
+                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success > .alert-success')
+                        .append("<strong>Deine Nachricht wurde gesendet. </strong>");
+                    $('#success > .alert-success')
+                        .append('</div>');
 
-                        //clear all fields
-                        $('#contactForm').trigger("reset");
+                    //clear all fields
+                    $('#contactForm').trigger("reset");
                 }
                 else {
+                    alert("fail-XXX");
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
