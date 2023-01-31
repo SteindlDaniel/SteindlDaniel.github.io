@@ -21,6 +21,7 @@ $(function() {
                 url: "https://formspree.io/f/mwkjpvzl",
                 type: "POST",                
                 headers: {
+                    'Acces-Control-Allow-Origin': '*',
                     'Accept': 'application/json'
                 },
                 data: {
