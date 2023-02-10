@@ -256,13 +256,13 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 12px 0;
         background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-        padding-top: 0px;
+        font-size: 1em;
+        padding: 0;
     }
 }
 
