@@ -245,7 +245,9 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -273,7 +275,7 @@ header {
 
 #myVideo{
     height: 100%;
-    width: 177.77777778vh; /* 100 * 16 / 9 */
+    width: 177.7777777777777777778vh; /* 100 * 16 / 9 */
     min-width: 100%;
     min-height: 56.25vw; /* 100 * 9 / 16 */
 }
