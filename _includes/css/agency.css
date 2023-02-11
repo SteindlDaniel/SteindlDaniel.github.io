@@ -245,9 +245,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -260,7 +258,6 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        top:0;
         padding-top: 0px;
     }
 }
